@@ -1,0 +1,59 @@
+body {background-color: #f0f8ff;}
+
+/* styling 6 columns */
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.head {
+    background-color: #d3d3d3;
+    border: 2px solid #000000;
+    padding: 50px;
+    text-align: center;
+    width: 45%;
+}
+
+/* styling 4 columns */
+
+.head1 {
+    background-color: #d3d3d3;
+    border: 2px solid #000000;
+    padding: 50px ;
+    text-align: center;
+    width: 30%;
+    height: 50%;
+}
+
+/* styling 3 columns */
+
+.head2 {
+    background-color: #d3d3d3;
+    border: 2px solid #000000;
+    padding: 50px ;
+    text-align: center;
+    width: 23%;
+    height: 50%;
+}
+
+/* styling dynamic layout */
+
+.head3 {
+    background-color: #d3d3d3;
+    border: 2px solid #000000;
+    padding: 50px ;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 60%;
+    height: 50%;
+}
+.head4 {
+    background-color: #d3d3d3;
+    border: 2px solid #000000;
+    padding: 50px ;
+    margin-bottom: 20px;
+    width: 120%;
+    height: 50%;
+}

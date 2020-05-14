@@ -1,0 +1,55 @@
+html body {
+    margin: 20px;
+}
+.container3, .container1, .container2 .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+.btn {
+    margin: 20px;
+    width: inherit;
+    float: left;
+    width: fit-content;
+}
+.head img{
+    background-color: #d3d3d3;
+    border: 2px solid #000000;
+    padding: 0px;
+    text-align: center;
+    width: 45%;
+}
+.head3 {
+    background-color: #d3d3d3;
+    border: 2px solid #000000;
+    padding: 50px ;
+    margin-bottom: 20px;
+    width: 120%;
+    height: 50%;
+}
+.head1 {
+    background-color: #d3d3d3;
+    border: 0px solid #000000;
+    padding: 50px;
+    text-align: left;
+    width: 40%;
+    height: 100%;
+}
+.head2 {
+    background-color: #d3d3d3;
+    border: 0px solid #000000;
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+.table td {
+    background-color: bisque;
+}
+.table td:hover {
+    background-color: #00ffff;
+}
+.table td:nth-child(even) {
+    background-color: #f2f2f2;
+  }
